@@ -20,7 +20,11 @@ img{
 	background-color: #eee;
 }
 .mediano{
-	font-size: 1.5em;
+	font-size: 1em;
+}
+
+.chico{
+	font-size: .6em;
 }
 .padding-largo{
 	padding: 5px 10px;
@@ -31,7 +35,18 @@ img{
 .verde{
 	color: #00887C
 }
+.retraso-1{
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+	-moz-animation-delay: 1s;
+}
+.retraso-2{
+	-webkit-animation-delay: 2;
+	animation-delay: 2s;
+	-moz-animation-delay: 2s;
+}
 .no-lista{
+	
 	margin: 0px;
 	padding: 0px;
 }
